@@ -1,5 +1,4 @@
-import React from 'react';
-import { Dimensions, Platform, StatusBar, StyleSheet, View } from 'react-native';
+import { Dimensions, Platform, StatusBar, View } from 'react-native';
 import { ScreenWrapperProps } from "@/types";
 import { colors } from "@/constants/theme";
 
@@ -20,5 +19,3 @@ const ScreenWrapper = ({ style, children }: ScreenWrapperProps) => {
 };
 
 export default ScreenWrapper;
-
-const styles = StyleSheet.create({});
